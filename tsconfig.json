@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["es6", "dom"],
+        "baseUrl": "./src",
+        "types": ["reflect-metadata"],
+        "typeRoots": [
+            "./src"
+        ],
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "noEmitHelpers": true
+        //,"noUnusedLocals": true
+        //,"noUnusedParameters": true
+    },
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
